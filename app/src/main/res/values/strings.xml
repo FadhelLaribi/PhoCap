@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PhoCap</string>
+    <string name="groups_title">Your space</string>
+    <string name="feed_title">Feed</string>
+    <string name="capsule_details_title">Capsule</string>
+    <string name="add_capsule_title">Add capsule</string>
+    <string name="back_button_content_description">Back</string>
+    <string name="groups_screen_welcome_message">Welcome to PhoCap ! Some great gems are hiding 😊</string>
+    <string name="groups_screen_feed_section_title">Latest capsules</string>
+    <string name="groups_screen_feed_see_all">See all</string>
+    <string name="groups_screen_feed_your_groups_title">They surely have some surprises !</string>
+    <string name="groups_screen_feed_add_group">Add group</string>
+    <string name="capsule_item_locked_content_description">locked</string>
+    <string name="capsule_item_unlocked">🎉 Unlocked</string>
+    <string name="capsule_item_unlocks_very_soon">⌛ About to unlock</string>
+    <plurals name="capsule_item_unlocks_in_minutes">
+        <item quantity="one">⌛ Unlocks in %d minute</item>
+        <item quantity="other">⌛ Unlocks in %d minutes</item>
+    </plurals>
+    <plurals name="capsule_item_unlocks_in_hours">
+        <item quantity="one">⌛ Unlocks in %d hour</item>
+        <item quantity="other">⌛ Unlocks in %d hours</item>
+    </plurals>
+    <plurals name="capsule_item_unlocks_in_days">
+        <item quantity="one">⌛ Unlocks in %d day</item>
+        <item quantity="other">⌛ Unlocks in %d days</item>
+    </plurals>
+    <plurals name="capsule_item_unlocks_in_weeks">
+        <item quantity="one">⌛ Unlocks in %d week</item>
+        <item quantity="other">⌛ Unlocks in %d weeks</item>
+    </plurals>
+    <plurals name="capsule_item_unlocks_in_months">
+        <item quantity="one">⌛ Unlocks in %d month</item>
+        <item quantity="other">⌛ Unlocks in %d months</item>
+    </plurals>
+    <string name="edit_photo_modal_camera_title">Take a photo</string>
+    <string name="edit_photo_modal_upload_title">Upload a photo</string>
+    <string name="capsule_successfully_added_message">The capsule was successfully added !</string>
+    <string name="add_capsule_add_photo_label">Add your memorable photos (max 3)</string>
+    <string name="add_capsule_add_photo_content_description">Add Photo</string>
+    <string name="add_capsule_unlock_date_field_placeholder">Unlock date</string>
+    <string name="add_capsule_unlock_date_field_label">Unlock date</string>
+    <string name="add_capsule_title_field_label">Title (optional)</string>
+    <string name="add_capsule_description_field_label">Description (optional)</string>
+    <string name="add_capsule_description_submit_button_label">Confirm</string>
+    <string name="add_capsule_add_photo_maximum_limit">You can add up to 3 photos.</string>
+    <string name="add_capsule_add_photo_error">Please add at least one photo.</string>
+    <string name="add_capsule_add_unlock_date_error">Please select an unlock date.</string>
+    <string name="date_text_field_content_description">Select date</string>
+    <string name="feed_screen_welcome_message">✨ Explore stories and surprises waiting to be unlocked 🚀</string>
+    <string name="group_screen_welcome_message">👋 Welcome to %s ! Share and unlock memories together 📸</string>
+    <string name="fallback_group_name">your private haven</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
