@@ -1,2 +1,2 @@
 # PhoCap
-A prototype for a social app
+A prototype of a social app.
