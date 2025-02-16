@@ -13,7 +13,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.phocap.ui.AppBarStateHolder
 import com.example.phocap.ui.FabStateHolder
-import com.example.phocap.ui.SplashScreen
 import com.example.phocap.ui.addcapsule.AddCapsuleScreen
 import com.example.phocap.ui.capsulelist.CapsuleListScreen
 import com.example.phocap.ui.groups.GroupsScreen
@@ -29,21 +28,9 @@ fun PhoCapNavHost(
     val context = LocalContext.current
     NavHost(
         navController = navController,
-        startDestination = Splash.route,
+        startDestination = Groups.route,
         modifier = modifier
     ) {
-        composable(route = Splash.route) {
-
-            LaunchedEffect(Unit) {
-                setAppBarState(AppBarStateHolder(title = null, isAppBarVisible = false))
-            }
-
-            SplashScreen(onSplashFinished = {
-                navController.navigate(Groups.route) {
-                    popUpTo(Splash.route) { inclusive = true }
-                }
-            })
-        }
 
         composable(route = Groups.route) {
             LaunchedEffect(Unit) {

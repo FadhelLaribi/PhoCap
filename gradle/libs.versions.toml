@@ -20,6 +20,7 @@ mockk = "1.13.14"
 androidx-arch-core = "2.2.0"
 turbine = "1.2.0"
 desugarJdkLibs = "2.1.4"
+splashscreen = "1.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -52,6 +53,7 @@ kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "androidx-arch-core" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugarJdkLibs" }
+splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
